@@ -1,13 +1,10 @@
 # My blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3e5e1592-f32d-4243-9705-4bce7636ce80/deploy-status)](https://app.netlify.com/sites/objective-borg-f6eb56/deploys)
-
 This is the source of my site: https://iamwoz.com
 
 # Local dev
 Install:
-- [Hugo](https://gohugo.io/)
-- node 12 (this is the version netlify uses)
+- [Hugo](https://gohugo.io/) (currently using v0.111.3)
 - (optional) [Spell Right VS Code plugin](https://github.com/bartosz-antosik/vscode-spellright)
 
 ```sh
@@ -17,8 +14,6 @@ Install:
 hugo server -D
 # or, run local dev server, accessible on the local network
 hugo server -D --bind 0.0.0.0
-# if using Netlify functions
-ntl dev -c "hugo server -D"
 ```
 
 
@@ -33,11 +28,7 @@ git push
 
 
 # todo
-- get working on github pages
-    - add custom domain
-    - remove/amend netlify related stuff
-- remove netlify functions, make this site totally static
-    - removes netlify build & node dependencies
+- amend netlify related posts
 - include only links in rss
 - make inline code like `this` prettier
 - display tags

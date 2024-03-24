@@ -9,7 +9,6 @@
 # - run this script
 # - push to branch
 # - goto https://github.com/uozuAho/blog -> current branch
-# - click on the netlify build badge - this shows the branch deployment
 # - run lighthouse
 # - open with mobile browser
 # - check percy: click the tick/cross in github -> click on Details of Percy
@@ -26,6 +25,7 @@
 
 rm -rf docs
 hugo
+echo iamwoz.com > docs/CNAME
 # remove blog RSS feed (use home RSS feed)
 # Hugo docs are unclear on how to do this.
 rm docs/blog/index.xml
