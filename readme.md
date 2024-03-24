@@ -33,6 +33,7 @@ git push
 
 
 # todo
+- get working on github pages
 - remove netlify functions, make this site totally static
     - removes netlify build & node dependencies
 - include only links in rss

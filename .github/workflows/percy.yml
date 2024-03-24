@@ -10,6 +10,6 @@ jobs:
         with:
           node-version: 18.x
       - run: npm i @percy/cli
-      - run: npx percy snapshot public/
+      - run: npx percy snapshot docs/
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
