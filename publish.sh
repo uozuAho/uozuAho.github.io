@@ -24,8 +24,8 @@
 # - push
 # - goto https://github.com/uozuAho/blog -> check percy
 
-rm -rf public
+rm -rf docs
 hugo
 # remove blog RSS feed (use home RSS feed)
 # Hugo docs are unclear on how to do this.
-rm public/blog/index.xml
+rm docs/blog/index.xml

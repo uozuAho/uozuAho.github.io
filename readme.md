@@ -34,6 +34,8 @@ git push
 
 # todo
 - get working on github pages
+    - add custom domain
+    - remove/amend netlify related stuff
 - remove netlify functions, make this site totally static
     - removes netlify build & node dependencies
 - include only links in rss
