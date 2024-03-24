@@ -1,0 +1,32 @@
+baseURL: "https://iamwoz.com/"
+languageCode: "en-GB"
+title: "woz"
+theme: "uozu-xmin"
+
+disableKinds:
+  - "taxonomy"
+ignoreErrors:
+  - "error-disable-taxonomy"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: Blog
+      url: "blog/"
+      weight: 2
+    - name: RSS
+      url: "index.xml"
+      weight: 3
+
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 2
+    ordered: false
+  goldmark:
+    renderer:
+      # render inline html
+      # alternative: custom shortcode: https://gohugo.io/templates/shortcode-templates/
+      unsafe: true
